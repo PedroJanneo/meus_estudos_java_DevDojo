@@ -23,8 +23,8 @@ public class RunTimeExceptionTest04 {
         try{
             talvezTenhaException();
 
-        } catch (Exception e){
-
+        } catch ( SQLException | FileNotFoundException e){
+            
         }
     }
 
