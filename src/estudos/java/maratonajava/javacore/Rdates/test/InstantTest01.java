@@ -1,0 +1,22 @@
+package estudos.java.maratonajava.javacore.Rdates.test;
+
+import java.time.Instant;
+import java.time.LocalDateTime;
+
+public class InstantTest01 {
+    public static void main(String[] args) {
+        Instant now = Instant.now(); // trabalha com nano segundos
+
+        System.out.println(now); // zulu time
+        System.out.println(LocalDateTime.now());
+
+        System.out.println(now.getEpochSecond());
+        System.out.println(now.getNano());
+
+
+
+
+
+
+    }
+}
